@@ -23,17 +23,22 @@ body {
   .sidebar ul li {
     padding: 15px; /* Espaciado interno de cada ítem */
   }
-  
-  .sidebar ul li a {
+   /* texto */
+   .sidebar ul li a{
+    font-size: 1.2em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: white; /* Color de texto blanco */
     text-decoration: none; /* Quita el subrayado */
     display: block;
   }
   
-  .sidebar ul li a:hover {
+
+  .sidebar ul li:hover {
     background-color: #575757; /* Cambio de color al pasar el ratón */
+    color: #575757;
   }
-  
+
+ 
   /* Contenido principal */
   .content {
     margin-left: 250px; /* Deja espacio para la barra lateral */
