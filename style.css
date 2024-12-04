@@ -1,0 +1,50 @@
+/* Estilos generales del cuerpo de la página */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Barra lateral */
+  .sidebar {
+    height: 100%; /* Asegura que la barra lateral cubra toda la altura de la pantalla */
+    width: 250px; /* Ancho de la barra lateral */
+    position: fixed; /* La barra lateral estará fija al lado izquierdo */
+    top: 0;
+    left: 0;
+    background-color: #333; /* Fondo oscuro */
+    padding-top: 20px; /* Espacio superior */
+  }
+  
+  .sidebar ul {
+    list-style-type: none; /* Elimina los puntos de la lista */
+    padding: 0;
+  }
+  
+  .sidebar ul li {
+    padding: 15px; /* Espaciado interno de cada ítem */
+  }
+  
+  .sidebar ul li a {
+    color: white; /* Color de texto blanco */
+    text-decoration: none; /* Quita el subrayado */
+    display: block;
+  }
+  
+  .sidebar ul li a:hover {
+    background-color: #575757; /* Cambio de color al pasar el ratón */
+  }
+  
+  /* Contenido principal */
+  .content {
+    margin-left: 250px; /* Deja espacio para la barra lateral */
+    padding: 20px;
+  }
+  
+  h1 {
+    color: #333; /* Color de texto */
+  }
+  
+  p {
+    color: #555; /* Color de párrafo */
+  }
+  
