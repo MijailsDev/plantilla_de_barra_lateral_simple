@@ -39,7 +39,9 @@ body {
     color: #fff;
     transition: .2s;
   }
-
+.selected{
+    background:  #575757;
+}
  
   /* Contenido principal */
   .content {
